@@ -1,0 +1,24 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust height for appropriate centering */
+  }
+  
+  .spinner-image {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    animation: spin 1s linear infinite; /* Optional spinning animation */
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+    
