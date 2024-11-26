@@ -1,3 +1,6 @@
 body {
-  background-color: darkgray;
+  background-image: url("/public/background.jpeg"); /* Reference the file in the public folder */
+  background-size: cover; /* Make the image cover the entire background */
+  background-repeat: no-repeat; /* Avoid tiling the image */
+  background-attachment: fixed;
 }
